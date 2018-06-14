@@ -82,6 +82,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B919FE220D142DE000751C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1E69720BFFF0600C7BAB7 /* ViewController.swift */,
+				2B919FE020D1249E000751C9 /* CollectionViewController.swift */,
+				2BA94CF020CAB83100392FC7 /* WebImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B919FE320D142FA000751C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B919FDC20D123BC000751C9 /* ImageCellTableViewCell.swift */,
+				2B919FDD20D123BC000751C9 /* ImageCellTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2BE1E68920BFFF0600C7BAB7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +124,13 @@
 		2BE1E69420BFFF0600C7BAB7 /* collectionView */ = {
 			isa = PBXGroup;
 			children = (
+				2B919FE220D142DE000751C9 /* ViewControllers */,
+				2B919FE320D142FA000751C9 /* Cells */,
 				2BE1E69520BFFF0600C7BAB7 /* AppDelegate.swift */,
-				2BE1E69720BFFF0600C7BAB7 /* ViewController.swift */,
-				2B919FE020D1249E000751C9 /* CollectionViewController.swift */,
 				2BE1E69920BFFF0600C7BAB7 /* Main.storyboard */,
-				2B919FDC20D123BC000751C9 /* ImageCellTableViewCell.swift */,
-				2B919FDD20D123BC000751C9 /* ImageCellTableViewCell.xib */,
 				2BE1E69C20BFFF0800C7BAB7 /* Assets.xcassets */,
 				2BE1E69E20BFFF0800C7BAB7 /* LaunchScreen.storyboard */,
 				2BE1E6A120BFFF0800C7BAB7 /* Info.plist */,
-				2BA94CF020CAB83100392FC7 /* WebImageViewController.swift */,
 			);
 			path = collectionView;
 			sourceTree = "<group>";
